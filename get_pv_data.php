@@ -3,7 +3,7 @@
 $resource_id = "xxx-xxxx-xxxx-xxxx";
 $api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 $get_addr = "fronius_ip_addr";
-$period = 300; //seconds
+$period = 300; //seconds - should be the same as configured in Fronius DataManager
 // End of user configured variables
 
 $post_url = "https://api.solcast.com.au/rooftop_sites/" .$resource_id. "/measurements";
