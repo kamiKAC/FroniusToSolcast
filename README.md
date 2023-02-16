@@ -1,5 +1,5 @@
 # FroniusToSolcast
-Scripts to send production data to Solcast.com and fetch production forecast to mySQL database
+Scripts to send PV production data to Solcast.com and fetch production forecast to mySQL database
 
 ## Sending data to Solcast
 <ul>
@@ -68,5 +68,5 @@ and add following line at the end of your crontab:<br>
 0,30 7-23 * * *  /usr/bin/php /path_to_your_scriptsb/get_pv_forecast.php
 ```
 
-This will send data to Solcast every 30 minutes between 7:00am and 23:30pm
+This will fetch Solcast PV forecast every 30 minutes between 7:00am and 23:30pm
 
